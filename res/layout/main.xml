@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<LinearLayout android:id="@+id/LinearLayout00" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="156px">
+<LinearLayout android:id="@+id/LinearLayout01" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="156px">
+<CheckBox android:id="@+id/CheckBox1" android:layout_height="39px" android:layout_width="40px"></CheckBox>
+<CheckBox android:id="@+id/CheckBox2" android:layout_height="39px" android:layout_width="40px"></CheckBox>
+<CheckBox android:id="@+id/CheckBox3" android:layout_height="39px" android:layout_width="40px"></CheckBox>
+<CheckBox android:id="@+id/CheckBox4" android:layout_height="39px" android:layout_width="40px"></CheckBox>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout02" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="156px">
+<CheckBox android:id="@+id/CheckBox5" android:layout_height="39px" android:layout_width="40px"></CheckBox>
+<CheckBox android:id="@+id/CheckBox6" android:layout_height="39px" android:layout_width="40px"></CheckBox>
+<CheckBox android:id="@+id/CheckBox7" android:layout_height="39px" android:layout_width="40px"></CheckBox>
+<CheckBox android:id="@+id/CheckBox8" android:layout_height="39px" android:layout_width="40px"></CheckBox>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout03" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="156px">
+<CheckBox android:id="@+id/CheckBox9" android:layout_height="39px" android:layout_width="40px"></CheckBox>
+<CheckBox android:id="@+id/CheckBox10" android:layout_height="39px" android:layout_width="40px"></CheckBox>
+<CheckBox android:id="@+id/CheckBox11" android:layout_height="39px" android:layout_width="40px"></CheckBox>
+<CheckBox android:id="@+id/CheckBox12" android:layout_height="39px" android:layout_width="40px"></CheckBox>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout03" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="156px">
+<Button android:text="@string/add" android:id="@+id/ButtonAdd" android:layout_height="wrap_content" android:layout_width="fill_parent" android:onClick="clickButtonAdd"></Button>
+<Button android:text="@string/clean" android:id="@+id/ButtonClean" android:layout_height="wrap_content" android:layout_width="fill_parent" android:onClick="clickButtonClean"></Button>
+<EditText android:layout_height="wrap_content" android:id="@+id/edtBricks" android:hint="@string/nbricks" android:layout_width="fill_parent" android:inputType="number"></EditText>
+</LinearLayout>
+</LinearLayout>
+<Button android:text="@string/start" android:id="@+id/ButtonStart" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="clickButtonStart"></Button>
+<EditText android:layout_width="fill_parent" android:layout_height="fill_parent" android:clickable="false" android:id="@+id/edtConsole"></EditText>
+</LinearLayout>
+
+
+

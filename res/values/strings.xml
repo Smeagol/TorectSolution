@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TorectSolution!</string>
+    <string name="app_name">TorectSolution</string>
+<string name="add">Add</string>
+<string name="clean">Clean</string>
+<string name="start">Go</string>
+<string name="nbricks">How many Bricks?</string>
+<string name="nobricksset">Set Nr of Bricks!\n\n</string>
+<string name="maxitems">You can't add more!\n\n</string>
+</resources>

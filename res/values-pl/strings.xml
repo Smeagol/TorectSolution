@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TorectSolution!</string>
+    <string name="app_name">TorectSolution</string>
+<string name="add">Dodaj</string>
+<string name="clean">Wyczyść</string>
+<string name="start">Start</string>
+<string name="nbricks">Liczba cegłówek</string>
+<string name="nobricksset">Podaj liczbę cegłówek gamoniu!\n\n</string>
+<string name="maxitems">Więcej klocków nie dodasz!\n\n</string>
+</resources>
